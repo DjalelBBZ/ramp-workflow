@@ -20,6 +20,7 @@ from .relative_rmse import RelativeRMSE
 from .rmse import RMSE
 from .roc_auc import ROCAUC
 from .soft_accuracy import SoftAccuracy
+from .max_absolute_error import MaxAbsoluteError
 
 __all__ = [
     'Accuracy',
@@ -40,6 +41,7 @@ __all__ = [
     'MakeCombined',
     'MADCenter',
     'MADRadius',
+    'MaxAbsoluteError',
     'MARE',
     'NegativeLogLikelihood',
     'NormalizedGini',
